@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, NavItems, NavItemsDiv, Logo } from "./styles/NavBar.styled";
+import resume from "../assets/Akash_plackal_Resume.pdf";
 
 const NavBar = () => {
   return (
@@ -15,7 +16,9 @@ const NavBar = () => {
         <NavItems href="#home">Home</NavItems>
         <NavItems href="#work">Work</NavItems>
         <NavItems href="#contact">Contact</NavItems>
-        <NavItems href="#resume">Resume</NavItems>
+        <NavItems href={resume} download>
+          Resume
+        </NavItems>
       </NavItemsDiv>
     </Nav>
   );

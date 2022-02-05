@@ -6,12 +6,8 @@ export const PageDiv = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: #dddddd;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  min-width: 100%;
+  min-height: 100vh;
   padding-top: 10rem;
 `;
 
