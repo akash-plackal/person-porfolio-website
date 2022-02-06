@@ -29,4 +29,5 @@ export const NavItems = styled.a`
   font-family: "poppins", sans-serif;
   color: #001142;
   font-weight: 500;
+  text-decoration: none;
 `;

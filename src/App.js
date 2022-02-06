@@ -7,7 +7,7 @@ const App = () => {
     <>
       <NavBar />
       <LandingPage />
-      {/* <HeroSection /> */}
+      <HeroSection />
     </>
   );
 };

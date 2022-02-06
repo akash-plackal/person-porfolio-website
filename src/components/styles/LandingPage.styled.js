@@ -6,7 +6,7 @@ export const PageDiv = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: #dddddd;
-  min-width: 100%;
+  /* min-width: 100%; */
   min-height: 100vh;
   padding-top: 10rem;
 `;
