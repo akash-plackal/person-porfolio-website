@@ -6,7 +6,6 @@ export const PageDiv = styled.div`
   align-items: center;
   flex-direction: column;
   background-color: #dddddd;
-  /* min-width: 100%; */
   min-height: 100vh;
   padding-top: 10rem;
 `;
@@ -14,14 +13,16 @@ export const PageDiv = styled.div`
 export const Title = styled.h1`
   font-family: "Poppins", sans-serif;
   color: #001142;
-  font-size: 40.5px;
+  font-size: 2.531rem;
+
   font-weight: 500;
   letter-spacing: -1px;
+  text-align: center;
 `;
 
 export const P = styled.p`
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #001142;
-  font-size: 12.3px;
+  font-size: 0.769rem;
 `;
