@@ -15,7 +15,7 @@ const HeroSection = () => {
         <GreetingDiv>
           <GreetingText
             data-aos="fade-left"
-            data-aos-delay="50"
+            data-aos-delay="20"
             data-aos-duration="1500"
           >
             Great seeing you.
@@ -23,7 +23,7 @@ const HeroSection = () => {
         </GreetingDiv>
         <HeroImg
           data-aos="fade-right"
-          data-aos-delay="50"
+          data-aos-delay="20"
           data-aos-duration="1500"
           src={HeroImage}
         />
