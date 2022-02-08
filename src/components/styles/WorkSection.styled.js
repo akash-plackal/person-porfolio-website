@@ -9,30 +9,27 @@ import styled from "styled-components";
 export const CardDiv = styled.div`
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid red; */
   padding: 3.5% 5%;
+  overflow: hidden;
 `;
 
 export const ProjectCard = styled.div`
   width: fit-content;
-  /* border: 1px solid brown; */
 `;
 
 export const ProjectImg = styled.img`
-  width: 600px;
+  width: 37.5rem;
   border-radius: 1.5px;
 `;
 
 export const ProjectDiscDiv = styled.div`
   height: 13.8rem;
-  width: 600px;
-  /* background-color: #fffadb; */
+  width: 37.5rem;
   background-color: ${(prop) => prop.bgColor};
   margin-top: -5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid brown; */
 `;
 
 export const ProjectDiscCard = styled.div`
@@ -60,4 +57,11 @@ export const ProjectDiscLink = styled.p`
   color: ${(props) => props.txtColor};
   font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
+`;
+
+export const ShowMoreButton = styled.a`
+  background-color: #f6f6f6;
+  margin: auto;
+  height: 2rem;
+  width: 5rem;
 `;
