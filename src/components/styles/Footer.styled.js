@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { NavItems } from "./NavBar.styled";
 
 export const FooterDiv = styled.div`
-  height: 50vh;
+  height: 48vh;
   padding: 6% 6%;
 `;
 

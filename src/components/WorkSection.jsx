@@ -119,7 +119,12 @@ const WorkSection = () => {
         </ProjectCard>
       </CardDiv>
       <ShowMoreDiv>
-        <ShowMoreButton>Veiw all projects &#8680; </ShowMoreButton>
+        <ShowMoreButton
+          target={"_blank"}
+          href="https://github.com/akash-plackal"
+        >
+          Veiw all projects &#8680;
+        </ShowMoreButton>
       </ShowMoreDiv>
     </>
   );

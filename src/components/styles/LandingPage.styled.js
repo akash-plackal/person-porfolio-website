@@ -5,10 +5,10 @@ export const PageDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  /* background-color: #dddddd; */
   background-color: #dedede;
   min-height: 100vh;
   padding-top: 10rem;
+  overflow: hidden;
 `;
 
 export const Title = styled.h1`
