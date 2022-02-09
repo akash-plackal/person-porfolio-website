@@ -26,7 +26,7 @@ export const NavItemsDiv = styled.div`
 `;
 
 export const NavItems = styled.a`
-  font-family: "poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #001142;
   font-weight: 500;
   text-decoration: none;

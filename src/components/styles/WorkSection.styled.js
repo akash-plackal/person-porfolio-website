@@ -59,9 +59,18 @@ export const ProjectDiscLink = styled.p`
   font-family: "Poppins", sans-serif;
 `;
 
+export const ShowMoreDiv = styled.div`
+  background-color: #ebebeb;
+  margin: 6rem auto;
+  height: 4.375rem;
+  width: 16.913rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const ShowMoreButton = styled.a`
-  background-color: #f6f6f6;
-  margin: auto;
-  height: 2rem;
-  width: 5rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
 `;

@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   ProjectImg,
   ProjectCard,
@@ -9,6 +8,7 @@ import {
   ProjectDiscCard,
   ProjectDiscMain,
   ProjectDiscLink,
+  ShowMoreDiv,
   ShowMoreButton,
 } from "./styles/WorkSection.styled";
 
@@ -95,6 +95,7 @@ const WorkSection = () => {
         </ProjectCard>
 
         <ProjectCard>
+          {console.log(" MADE BY |'L'| WITH <3'")}
           <ProjectImg
             src={forth}
             data-aos="fade-left"
@@ -117,8 +118,9 @@ const WorkSection = () => {
           </ProjectDiscDiv>
         </ProjectCard>
       </CardDiv>
-
-      {/* <ShowMoreButton>Show more</ShowMoreButton> */}
+      <ShowMoreDiv>
+        <ShowMoreButton>Veiw all projects &#8680; </ShowMoreButton>
+      </ShowMoreDiv>
     </>
   );
 };
