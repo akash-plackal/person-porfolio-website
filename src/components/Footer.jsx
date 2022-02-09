@@ -11,8 +11,18 @@ import {
 const Footer = () => {
   return (
     <FooterDiv id="contact">
-      <GreyText>Let's connect </GreyText>
-      <FooterLinksDiv>
+      <GreyText
+        data-aos="fade-left"
+        data-aos-delay="50"
+        data-aos-duration="2000"
+      >
+        Let's connect
+      </GreyText>
+      <FooterLinksDiv
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="2000"
+      >
         <FooterLinkItems
           target="_blank"
           href="https://github.com/akash-plackal"
@@ -32,7 +42,11 @@ const Footer = () => {
           Linkedin
         </FooterLinkItems>
       </FooterLinksDiv>
-      <FooterCreditDiv>
+      <FooterCreditDiv
+        data-aos="fade-left"
+        data-aos-delay="300"
+        data-aos-duration="2000"
+      >
         <FooterLinkItems>
           Made with ❤️ by <FooterCreditText>Akash Plackal</FooterCreditText>
         </FooterLinkItems>

@@ -4,6 +4,7 @@ import { NavItems } from "./NavBar.styled";
 export const FooterDiv = styled.div`
   height: 48vh;
   padding: 6% 6%;
+  overflow: hidden;
 `;
 
 export const GreyText = styled.p`

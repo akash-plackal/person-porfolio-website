@@ -21,13 +21,12 @@ const WorkSection = () => {
   return (
     <>
       <CardDiv id="work">
-        <ProjectCard>
-          <ProjectImg
-            src={first}
-            data-aos="fade-right"
-            data-aos-delay="20"
-            data-aos-duration="1500"
-          />
+        <ProjectCard
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          <ProjectImg src={first} />
           <ProjectDiscDiv bgColor="#fff7c7">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#e29400">
@@ -44,17 +43,16 @@ const WorkSection = () => {
           </ProjectDiscDiv>
         </ProjectCard>
 
-        <ProjectCard>
-          <ProjectImg
-            src={second}
-            data-aos="fade-left"
-            data-aos-delay="20"
-            data-aos-duration="1500"
-          />
+        <ProjectCard
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          <ProjectImg src={second} />
           <ProjectDiscDiv bgColor="#bfe0d6">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#31636e">
-                React js / Redux / Antd
+                React js / styled-components / router-dom
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#31636e">
                 Join a developer community, attend virtual meetups and
@@ -71,13 +69,12 @@ const WorkSection = () => {
       {/* ========== */}
 
       <CardDiv id="work">
-        <ProjectCard>
-          <ProjectImg
-            src={third}
-            data-aos="fade-right"
-            data-aos-delay="20"
-            data-aos-duration="1500"
-          />
+        <ProjectCard
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
+          <ProjectImg src={third} />
           <ProjectDiscDiv bgColor="#f0ebf5">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#3c053c">
@@ -94,14 +91,13 @@ const WorkSection = () => {
           </ProjectDiscDiv>
         </ProjectCard>
 
-        <ProjectCard>
+        <ProjectCard
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1500"
+        >
           {console.log(" MADE BY |'L'| WITH <3'")}
-          <ProjectImg
-            src={forth}
-            data-aos="fade-left"
-            data-aos-delay="20"
-            data-aos-duration="1500"
-          />
+          <ProjectImg src={forth} />
           <ProjectDiscDiv bgColor="#fbd6b7">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#a03516">
@@ -118,7 +114,11 @@ const WorkSection = () => {
           </ProjectDiscDiv>
         </ProjectCard>
       </CardDiv>
-      <ShowMoreDiv>
+      <ShowMoreDiv
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="2500"
+      >
         <ShowMoreButton
           target={"_blank"}
           href="https://github.com/akash-plackal"
