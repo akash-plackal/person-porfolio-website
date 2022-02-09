@@ -55,8 +55,8 @@ const WorkSection = () => {
                 React js / styled-components / router-dom
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#31636e">
-                Join a developer community, attend virtual meetups and
-                collaborate online.
+                A real-estate website built using react js and
+                styled-components.
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#31636e">
                 Website &#x2022; Github
@@ -78,11 +78,10 @@ const WorkSection = () => {
           <ProjectDiscDiv bgColor="#f0ebf5">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#3c053c">
-                React js / Redux / Antd
+                React js / Weather-api / Antd
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#3c053c">
-                A Cryptocurrency platform build using react js , redux tooltip
-                and Antd.
+                A weather app that gives weather report on major cities
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#3c053c">
                 Website &#x2022; Github
@@ -104,8 +103,8 @@ const WorkSection = () => {
                 React js / Redux / Antd
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#a03516">
-                Join a developer community, attend virtual meetups and
-                collaborate online.
+                Clone of a popular chrome extension called momentum build with
+                react js
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#a03516">
                 Website &#x2022; Github
