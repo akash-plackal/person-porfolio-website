@@ -1,10 +1,4 @@
 import styled from "styled-components";
-// import { AboutMeDisc } from "./AboutMe.styled";
-
-// export const WorkText = styled(AboutMeDisc)`
-//   text-align: start;
-//   margin-left: 1rem;
-// `;
 
 export const CardDiv = styled.div`
   display: flex;
@@ -46,6 +40,11 @@ export const ProjectDiscTech = styled.p`
   font-family: "Poppins", sans-serif;
 `;
 
+export const ProjectLinks = styled.a`
+  color: inherit;
+  padding: 0 1%;
+`;
+
 export const ProjectDiscMain = styled.h5`
   color: ${(props) => props.txtColor};
   font-family: "Poppins", sans-serif;
@@ -71,6 +70,6 @@ export const ShowMoreDiv = styled.div`
 
 export const ShowMoreButton = styled.a`
   text-decoration: none;
-  color: black;
+  color: #001142;
   font-family: "Poppins", sans-serif;
 `;

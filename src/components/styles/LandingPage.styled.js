@@ -15,7 +15,6 @@ export const Title = styled.h1`
   font-family: "Poppins", sans-serif;
   color: #001142;
   font-size: 2.531rem;
-
   font-weight: 500;
   letter-spacing: -1px;
   text-align: center;

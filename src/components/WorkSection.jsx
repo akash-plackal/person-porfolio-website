@@ -5,6 +5,7 @@ import {
   CardDiv,
   ProjectDiscDiv,
   ProjectDiscTech,
+  ProjectLinks,
   ProjectDiscCard,
   ProjectDiscMain,
   ProjectDiscLink,
@@ -37,7 +38,19 @@ const WorkSection = () => {
                 and Antd.
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#e29400">
-                Website &#x2022; Github
+                <ProjectLinks
+                  target="_blank"
+                  href="https://cryptoverse-react-redux-toolkit-app.netlify.app/"
+                >
+                  Website
+                </ProjectLinks>
+                &#x2022;
+                <ProjectLinks
+                  target="_blank"
+                  href="https://github.com/akash-plackal/cryptoverse-app"
+                >
+                  Github
+                </ProjectLinks>
               </ProjectDiscLink>
             </ProjectDiscCard>
           </ProjectDiscDiv>
@@ -59,7 +72,19 @@ const WorkSection = () => {
                 styled-components.
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#31636e">
-                Website &#x2022; Github
+                <ProjectLinks
+                  target="_blank"
+                  href="https://elixr-real-estate-react.netlify.app/"
+                >
+                  Website
+                </ProjectLinks>
+                &#x2022;
+                <ProjectLinks
+                  target="_blank"
+                  href="https://github.com/akash-plackal/real-estate-site-react"
+                >
+                  Github
+                </ProjectLinks>
               </ProjectDiscLink>
             </ProjectDiscCard>
           </ProjectDiscDiv>
@@ -78,13 +103,25 @@ const WorkSection = () => {
           <ProjectDiscDiv bgColor="#f0ebf5">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#3c053c">
-                React js / Weather-api / Antd
+                React js / Weather-api / Bootstrap
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#3c053c">
                 A weather app that gives weather report on major cities
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#3c053c">
-                Website &#x2022; Github
+                <ProjectLinks
+                  target="_blank"
+                  href="https://world-wide-weather-app.netlify.app/"
+                >
+                  Website
+                </ProjectLinks>
+                &#x2022;
+                <ProjectLinks
+                  target="_blank"
+                  href="https://github.com/akash-plackal/weather-app"
+                >
+                  Github
+                </ProjectLinks>
               </ProjectDiscLink>
             </ProjectDiscCard>
           </ProjectDiscDiv>
@@ -100,14 +137,26 @@ const WorkSection = () => {
           <ProjectDiscDiv bgColor="#fbd6b7">
             <ProjectDiscCard>
               <ProjectDiscTech txtColor="#a03516">
-                React js / Redux / Antd
+                React js / styled-components / quotes api
               </ProjectDiscTech>
               <ProjectDiscMain txtColor="#a03516">
                 Clone of a popular chrome extension called momentum build with
                 react js
               </ProjectDiscMain>
               <ProjectDiscLink txtColor="#a03516">
-                Website &#x2022; Github
+                <ProjectLinks
+                  target="_blank"
+                  href="https://new-tab-momentum.netlify.app/"
+                >
+                  Website
+                </ProjectLinks>
+                &#x2022;
+                <ProjectLinks
+                  target="_blank"
+                  href="https://github.com/akash-plackal/Momentum-clone"
+                >
+                  Github
+                </ProjectLinks>
               </ProjectDiscLink>
             </ProjectDiscCard>
           </ProjectDiscDiv>
