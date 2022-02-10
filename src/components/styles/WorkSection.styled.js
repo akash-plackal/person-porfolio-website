@@ -37,7 +37,6 @@ export const ProjectDiscCard = styled.div`
 export const ProjectDiscTech = styled.p`
   color: ${(props) => props.txtColor};
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
 `;
 
 export const ProjectLinks = styled.a`
@@ -47,7 +46,7 @@ export const ProjectLinks = styled.a`
 
 export const ProjectDiscMain = styled.h5`
   color: ${(props) => props.txtColor};
-  font-family: "Poppins", sans-serif;
+
   font-size: 1.5rem;
   font-weight: 400;
 `;
@@ -55,7 +54,6 @@ export const ProjectDiscMain = styled.h5`
 export const ProjectDiscLink = styled.p`
   color: ${(props) => props.txtColor};
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
 `;
 
 export const ShowMoreDiv = styled.div`
@@ -71,5 +69,4 @@ export const ShowMoreDiv = styled.div`
 export const ShowMoreButton = styled.a`
   text-decoration: none;
   color: #001142;
-  font-family: "Poppins", sans-serif;
 `;

@@ -9,7 +9,6 @@ export const FooterDiv = styled.div`
 
 export const GreyText = styled.p`
   color: #808080;
-  font-family: "Poppins", sans-serif;
 `;
 
 export const FooterLinksDiv = styled.div`
@@ -36,5 +35,4 @@ export const FooterCreditDiv = styled.div`
 
 export const FooterCreditText = styled.span`
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
 `;

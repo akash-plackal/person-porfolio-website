@@ -24,7 +24,6 @@ export const GreetingDiv = styled.div`
 `;
 
 export const GreetingText = styled.h1`
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
   font-size: 4rem;

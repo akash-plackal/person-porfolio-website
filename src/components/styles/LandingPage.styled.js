@@ -12,7 +12,6 @@ export const PageDiv = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-family: "Poppins", sans-serif;
   color: #001142;
   font-size: 2.531rem;
   font-weight: 500;
@@ -21,7 +20,6 @@ export const Title = styled.h1`
 `;
 
 export const P = styled.p`
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #001142;
   font-size: 0.769rem;

@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 
 export const Logo = styled.h3`
   color: #001142;
-  font-family: "poppins", sans-serif;
+
   font-weight: 500;
 `;
 
@@ -26,7 +26,6 @@ export const NavItemsDiv = styled.div`
 `;
 
 export const NavItems = styled.a`
-  font-family: "Poppins", sans-serif;
   color: #001142;
   font-weight: 500;
   text-decoration: none;
