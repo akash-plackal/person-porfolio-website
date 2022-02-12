@@ -10,10 +10,10 @@ const App = () => {
     <>
       <NavBar />
       <LandingPage />
-      <HeroSection />
+      {/* <HeroSection />
       <AboutMe />
       <WorkSection />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

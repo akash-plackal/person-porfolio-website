@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { size } from "../../data/breakpoint";
 
 export const Nav = styled.nav`
   display: flex;
@@ -14,8 +15,9 @@ export const Nav = styled.nav`
 
 export const Logo = styled.h3`
   color: #001142;
-
   font-weight: 500;
+
+  /* font-size: clamp(10px, 30%, 3rem); */
 `;
 
 export const NavItemsDiv = styled.div`
@@ -23,6 +25,10 @@ export const NavItemsDiv = styled.div`
   justify-content: space-around;
   width: 19rem;
   padding-left: 2rem;
+
+  @media (max-width: ${size.mobileL}) {
+    display: none;
+  }
 `;
 
 export const NavItems = styled.a`
