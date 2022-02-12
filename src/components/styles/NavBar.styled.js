@@ -16,7 +16,7 @@ export const Nav = styled.nav`
 export const Logo = styled.h3`
   color: #001142;
   font-weight: 500;
-  /* font-size: 1.25rem; */
+
   /* font-size: clamp(10px, 30%, 3rem); */
 `;
 
