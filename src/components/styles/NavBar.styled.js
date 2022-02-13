@@ -16,8 +16,6 @@ export const Nav = styled.nav`
 export const Logo = styled.h3`
   color: #001142;
   font-weight: 500;
-
-  /* font-size: clamp(10px, 30%, 3rem); */
 `;
 
 export const NavItemsDiv = styled.div`
@@ -30,6 +28,8 @@ export const NavItemsDiv = styled.div`
     display: none;
   }
 `;
+
+export const hamMenu = styled.div``;
 
 export const NavItems = styled.a`
   color: #001142;
