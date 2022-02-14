@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 2000;
   width: 100vw;
   height: 3rem;
   padding: 2rem;
@@ -29,7 +29,11 @@ export const NavItemsDiv = styled.div`
   }
 `;
 
-export const hamMenu = styled.div``;
+export const HamMenu = styled.div`
+  @media (min-width: ${size.mobileL}) {
+    display: none;
+  }
+`;
 
 export const NavItems = styled.a`
   color: #001142;
