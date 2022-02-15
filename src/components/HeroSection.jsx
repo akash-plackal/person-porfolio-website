@@ -5,8 +5,10 @@ import {
   HeroCard,
   HeroDiv,
   HeroImg,
+  HeroImgCropped,
 } from "./styles/HeroSection.styled";
 import HeroImage from "../assets/hero-img.png";
+import HeroCropped from "../assets/hero-img-croped.png";
 
 const HeroSection = () => {
   return (
@@ -27,6 +29,7 @@ const HeroSection = () => {
           data-aos-duration="1500"
           src={HeroImage}
         />
+        <HeroImgCropped src={HeroCropped} />
       </HeroCard>
     </HeroDiv>
   );

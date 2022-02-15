@@ -1,19 +1,32 @@
 import styled from "styled-components";
+import { size } from "../../data/breakpoint";
 
 export const CardDiv = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3.5% 5%;
   overflow: hidden;
+
+  @media (max-width: ${size.mobileL}) {
+    flex-direction: column;
+  }
 `;
 
 export const ProjectCard = styled.div`
   width: fit-content;
+
+  @media (max-width: ${size.mobileL}) {
+    width: 100%;
+  }
 `;
 
 export const ProjectImg = styled.img`
   width: 37.5rem;
   border-radius: 1.5px;
+
+  @media (max-width: ${size.mobileL}) {
+    width: 100%;
+  }
 `;
 
 export const ProjectDiscDiv = styled.div`
@@ -24,6 +37,10 @@ export const ProjectDiscDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: ${size.mobileL}) {
+    width: 100%;
+  }
 `;
 
 export const ProjectDiscCard = styled.div`
@@ -49,6 +66,10 @@ export const ProjectDiscMain = styled.h5`
 
   font-size: 1.5rem;
   font-weight: 400;
+
+  @media (max-width: ${size.mobileL}) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const ProjectDiscLink = styled.p`
