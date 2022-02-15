@@ -1,10 +1,15 @@
 import styled from "styled-components";
+import { size } from "../../data/breakpoint";
 
 export const CardDiv = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3.5% 5%;
   overflow: hidden;
+
+  /* @media (max-width: ${size.mobileL}) {
+    flex-direction: column;
+  } */
 `;
 
 export const ProjectCard = styled.div`

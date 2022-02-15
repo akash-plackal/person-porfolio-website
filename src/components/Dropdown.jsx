@@ -6,11 +6,11 @@ import resume from "../assets/Akash_plackal_Resume.pdf";
 
 const DropDownContainer = styled.div`
   background-color: white;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,17 +25,31 @@ const DropDownContainer = styled.div`
   }
 `;
 
-const Dropdown = ({ toggle }) => {
+const DropDownLinks = styled(NavItems)`
+  font-size: 50px;
+  line-height: 85px;
+  font-weight: 600;
+`;
+
+const Dropdown = ({ toggle, setToggle }) => {
+  const clickHandler = () => setToggle(!toggle);
+
   return (
     <>
       {toggle && (
         <DropDownContainer>
-          <NavItems href="#home">Home</NavItems>
-          <NavItems href="#work">Work</NavItems>
-          <NavItems href="#contact">Contact</NavItems>
-          <NavItems href={resume} download>
+          <DropDownLinks href="#home" onClick={clickHandler}>
+            Home
+          </DropDownLinks>
+          <DropDownLinks href="#work" onClick={clickHandler}>
+            Work
+          </DropDownLinks>
+          <DropDownLinks href="#contact" onClick={clickHandler}>
+            Contact
+          </DropDownLinks>
+          <DropDownLinks href={resume} download>
             Resume
-          </NavItems>
+          </DropDownLinks>
         </DropDownContainer>
       )}
     </>

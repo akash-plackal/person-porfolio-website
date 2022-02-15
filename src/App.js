@@ -15,10 +15,10 @@ const App = () => {
       <NavBar toggle={toggle} setToggle={setToggle} />
       <LandingPage />
       <Dropdown toggle={toggle} setToggle={setToggle} />
-      {/* <HeroSection />
+      <HeroSection />
       <AboutMe />
-      <WorkSection />
-      <Footer /> */}
+      {/* <WorkSection /> */}
+      {/* <Footer /> */}
     </>
   );
 };
