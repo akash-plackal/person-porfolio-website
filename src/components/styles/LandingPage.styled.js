@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { size } from "../../data/breakpoint";
 
 export const PageDiv = styled.div`
   display: flex;
