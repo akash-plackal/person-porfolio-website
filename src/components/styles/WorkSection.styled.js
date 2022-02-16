@@ -9,6 +9,7 @@ export const CardDiv = styled.div`
 
   @media (max-width: ${size.mobileL}) {
     flex-direction: column;
+    align-items: space-between;
   }
 `;
 

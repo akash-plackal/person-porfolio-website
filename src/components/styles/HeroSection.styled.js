@@ -16,8 +16,10 @@ export const HeroCard = styled.div`
   justify-content: space-between;
 
   @media (max-width: ${size.mobileL}) {
-    height: 90vh;
+    height: 100vh;
+    width: 100%;
     flex-direction: column;
+    overflow: hidden;
   }
 `;
 
@@ -25,16 +27,25 @@ export const GreetingDiv = styled.div`
   width: 100%;
   display: flex;
   align-items: flex-start;
+  text-align: left;
   padding-left: 2rem;
   padding-top: 3rem;
+
+  @media (max-width: ${size.mobileL}) {
+    padding-right: 2rem;
+    text-align: right;
+  }
 `;
 
 export const GreetingText = styled.h1`
   font-weight: 500;
   font-style: italic;
-  /* font-size: 9.9vh; */
   font-size: min(64px, 10.9vw);
   color: #1c0002;
+
+  @media (max-width: ${size.mobileL}) {
+    text-align: right;
+  }
 `;
 
 export const HeroImg = styled.img`
