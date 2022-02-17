@@ -13,7 +13,7 @@ export const PageDiv = styled.div`
 
 export const Title = styled.h1`
   color: #001142;
-  font-size: min(2.5rem, 10vw);
+  font-size: min(1.5rem, 10vw);
   font-weight: 500;
   letter-spacing: -1px;
   text-align: center;

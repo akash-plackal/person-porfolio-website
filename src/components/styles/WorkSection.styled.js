@@ -10,6 +10,7 @@ export const CardDiv = styled.div`
   @media (max-width: ${size.mobileL}) {
     flex-direction: column;
     align-items: space-between;
+    padding: 0;
   }
 `;
 
@@ -18,6 +19,7 @@ export const ProjectCard = styled.div`
 
   @media (max-width: ${size.mobileL}) {
     width: 100%;
+    padding: 2rem 0;
   }
 `;
 
@@ -86,9 +88,18 @@ export const ShowMoreDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: ${size.mobileL}) {
+    height: 3.575rem;
+    width: 13.913rem;
+  }
 `;
 
 export const ShowMoreButton = styled.a`
   text-decoration: none;
   color: #001142;
+
+  @media (max-width: ${size.mobileL}) {
+    font-size: 0.8rem;
+  }
 `;
