@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { size } from "../../data/breakpoint";
 
 export const PageDiv = styled.div`
   display: flex;
@@ -13,10 +14,14 @@ export const PageDiv = styled.div`
 
 export const Title = styled.h1`
   color: #001142;
-  font-size: min(1.5rem, 10vw);
+  font-size: 2.5rem;
   font-weight: 500;
   letter-spacing: -1px;
   text-align: center;
+
+  @media (max-width: ${size.mobileL}) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const P = styled.p`
