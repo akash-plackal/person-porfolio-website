@@ -52,16 +52,8 @@ export const HeroImg = styled.img`
   height: 100%;
 
   @media (max-width: ${size.mobileL}) {
-    display: none;
-    width: 100%;
+    height: 35rem;
   }
 `;
 
-export const HeroImgCropped = styled.img`
-  display: none;
-
-  @media (max-width: ${size.mobileL}) {
-    display: inline-block;
-    width: 100%;
-  }
-`;
+export const ImgSrc = styled.source``;
